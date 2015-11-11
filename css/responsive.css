@@ -1,0 +1,1185 @@
+
+
+#firstPage #headerContainer nav #nav-toggle-box:hover #bunOne {
+  width: 32px;
+  opacity: 1; }
+#firstPage #headerContainer nav #nav-toggle-box:hover #burger {
+  opacity: 1;
+  width: 32px; }
+
+
+.mob_loader{
+  display: block;
+}
+#load{
+  display: none !important;
+}
+
+
+#firstPage .newHead {
+  padding: 0;
+  margin: 0; }
+  #firstPage .newHead nav #nav-toggle-box {
+    transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -webkit-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out; }
+#firstPage #headerContainer .introMenu #totalBox {
+  cursor: pointer !important;
+  transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -webkit-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  margin: 0 auto;
+  height: 70px !important;
+  width: 70px !important;
+  margin: 10px;
+  z-index: 9998; }
+#firstPage #headerContainer .introMenu #faceBox {
+  cursor: pointer !important;
+  transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -webkit-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  margin: 0 auto;
+  height: 65px !important;
+  width: 65px !important;
+  border-radius: 150px;
+  position: absolute;
+  z-index: 9997; }
+#firstPage #headerContainer .introMenu #logoBox {
+  cursor: pointer !important;
+  transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -webkit-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  margin: 0 auto;
+  height: 68px !important;
+  width: 68px !important;
+  position: relative;
+  left: 0%;
+  z-index: 9998; }
+#firstPage #headerContainer {
+  z-index: 5;
+  background: rgba(0,0,0,0.9) !important;
+  transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -webkit-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  position: fixed;
+  margin: 0 auto;
+  width: 100%;
+  top: -0.5px;
+  left: -0.5px; }
+  #firstPage #headerContainer #fixedMenu {
+    padding-top: 20vh;
+    height: 100vh;
+    width: 100%;
+    background: #000;
+    opacity: 0.9;
+    position: fixed;
+    z-index: 9000;
+    display: none; }
+    #firstPage #headerContainer #fixedMenu a {
+      text-decoration: none; }
+      #firstPage #headerContainer #fixedMenu a li {
+        color: #2cf08b;
+        list-style: none;
+        font-family: "Arial Black", Gadget, sans-serif !important;
+        font-size: 34px;
+        text-align: center;
+        margin: 20px auto;
+        cursor: pointer;
+        width: 200px;
+        border-radius: 3px;
+        border: 2px solid #2cf08b; }
+      #firstPage #headerContainer #fixedMenu a li:hover {
+        color: #000;
+        background: #2cf08b;
+        border: 2px solid #000; }
+  #firstPage #headerContainer nav #nav-toggle-box {
+    display: block; }
+  #firstPage #headerContainer nav .introMenu {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    list-style: none; }
+    #firstPage #headerContainer nav .introMenu a {
+      text-decoration: none; }
+    #firstPage #headerContainer nav .introMenu li {
+      margin: 10px 25px;
+      display: inline-block;
+      font-size: 18px; }
+    #firstPage #headerContainer nav .introMenu .greenCircle {
+      display: none;
+      position: absolute;
+      background: #2cf08b;
+      height: 90px;
+      width: 90px;
+      border-radius: 50px;
+      top: 15px;
+      right: 46.2%;
+      cursor: pointer; }
+    #firstPage #headerContainer nav .introMenu #navi {
+      font-family: "Arial Black", Gadget, sans-serif !important;
+      cursor: pointer;
+      color: #000;
+      opacity: 0.8;
+      transition: all 0.4s ease-out;
+      -moz-transition: all 0.4s ease-out;
+      -webkit-transition: all 0.4s ease-out;
+      -o-transition: all 0.4s ease-out;
+      position: relative;
+      top: -43px;
+      color: #fff;
+      display: none; }
+    #firstPage #headerContainer nav .introMenu #navi:hover {
+      transition: all 0.4s ease-out;
+      -moz-transition: all 0.4s ease-out;
+      -webkit-transition: all 0.4s ease-out;
+      -o-transition: all 0.4s ease-out;
+      color: #2cf08b;
+      opacity: 1; }
+    #firstPage #headerContainer nav .introMenu #ham {
+      transition: all 0.4s ease-out;
+      -moz-transition: all 0.4s ease-out;
+      -webkit-transition: all 0.4s ease-out;
+      -o-transition: all 0.4s ease-out;
+      display: none; }
+    #firstPage #headerContainer nav .introMenu #hamDecoy {
+      display: none; }
+#firstPage #introBackground {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #000;
+  opacity: 0.5;
+  z-index: -3; }
+#firstPage #introInfo {
+  z-index: -2;
+  position: fixed;
+  text-align: center;
+  margin-top: 20vh;
+  width: 100%; }
+  #firstPage #introInfo img {
+    padding-top: 10vh;
+    max-width: 850px; }
+  #firstPage #introInfo i {
+    font-family: "Arial Black", Gadget, sans-serif !important;
+    color: #2cf08b;
+    opacity: 0.9;
+    font-size: 21px;
+    position: relative;
+    top: 30px; }
+  #firstPage #introInfo h1 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: "Arial Black", Gadget, sans-serif !important;
+    font-size: 2.0em;
+    line-height: 1.2em;
+    color: #fff; }
+#firstPage #introTitle {
+  text-align: center;
+  color: #303030;
+  cursor: default; }
+  #firstPage #introTitle h1 {
+    font-family: "Arial Black", Gadget, sans-serif !important; }
+  #firstPage #introTitle h3 {
+    opacity: 0.6; }
+#firstPage img {
+  height: 100%;
+  width: 100%; }
+#firstPage header {
+  margin: 0 auto; }
+  #firstPage header nav ul {
+    transition: max-height 0.4s;
+    web-kit-transition: max-height 0.4s;
+    ms-transition: max-height 0.4s;
+    moz-transition: max-height 0.4s;
+    -o-transition: max-height 0.4s;
+    margin: 0 auto;
+    color: #FFF;
+    padding: 0;
+    text-align: center;
+    font-size: 32px;
+    font-family: "Andale Mono", AndaleMono, monospace; }
+    #firstPage header nav ul li {
+      cursor: pointer;
+      height: 60px;
+      width: 160px;
+      border-radius: 10px;
+      border: 2px solid #000;
+      display: inline-block;
+      padding-top: 10px;
+      text-align: center;
+      color: #000;
+      opacity: 1;
+      margin: 20px;
+      transition: all 1s ease-out;
+      -moz-transition: all 1s ease-out;
+      -webkit-transition: all 1s ease-out;
+      -o-transition: all 1s ease-out; }
+      #firstPage header nav ul li img {
+        height: 25px;
+        width: 25px; }
+    #firstPage header nav ul li:hover {
+      transition: all 1s ease-out;
+      -moz-transition: all 1s ease-out;
+      -webkit-transition: all 1s ease-out;
+      -o-transition: all 1s ease-out;
+      border-radius: 150px;
+      background-color: #000;
+      opacity: 0.8;
+      color: #fff; }
+    #firstPage header nav ul #up {
+      color: #ecf1f2 !important; }
+    #firstPage header nav ul .showUp {
+      color: #000000; }
+#firstPage #explore {
+  z-index: 1;
+  position: fixed;
+  margin: 0 auto;
+  margin-top: 75vh;
+  width: 100%; }
+  #firstPage #explore nav div:hover {
+    box-shadow: 0 0 10px #2cf08b;
+    transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -webkit-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out; }
+    #firstPage #explore nav div:hover h1 .spinArrow {
+      -webkit-transform: rotate(720deg);
+      -moz-transform: rotate(720deg);
+      -o-transform: rotate(720deg); }
+  #firstPage #explore nav a {
+    cursor: pointer;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none; }
+  #firstPage #explore nav div {
+    transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -webkit-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    margin: 0 auto;
+    padding: 5px;
+    width: 210px;
+    font-size: 18px;
+    border: 2px solid #2cf08b;
+    border-radius: 3px; }
+    #firstPage #explore nav div .arrowOpt2 {
+      display: none; }
+    #firstPage #explore nav div h1 {
+      font-family: "Arial Black", Gadget, sans-serif !important;
+      color: #2cf08b;
+      cursor: pointer;
+      border: none !important;
+      text-align: center;
+      opacity: 1;
+      margin: 0 auto;
+      transition: all 1s ease-out;
+      -moz-transition: all 1s ease-out;
+      -webkit-transition: all 1s ease-out;
+      -o-transition: all 1s ease-out; }
+      #firstPage #explore nav div h1 .spinArrow {
+        -webkit-transition-duration: 0.8s;
+        -moz-transition-duration: 0.8s;
+        -o-transition-duration: 0.8s;
+        transition-duration: 0.8s;
+        -webkit-transition-property: -webkit-transform;
+        -moz-transition-property: -moz-transform;
+        -o-transition-property: -o-transform;
+        transition-property: transform;
+        overflow: hidden;
+        height: 25px;
+        width: 25px;
+        cursor: pointer; }
+    #firstPage #explore nav div #up {
+      color: #ecf1f2 !important; }
+    #firstPage #explore nav div .showUp {
+      color: #000000; }
+#firstPage .downArrow:hover {
+  opacity: 0.5; }
+#firstPage .downArrow {
+  position: relative;
+  height: 25px;
+  width: 25px;
+  margin: 18vh auto; }
+  #firstPage .downArrow img {
+    height: 100%;
+    width: 100%; }
+
+#onePointFivePage {
+  width: 98% !important;
+  margin: 0 auto;
+  padding: 0;
+  height: 100%; }
+  #onePointFivePage h1 {
+    padding-top: 105px !important;
+    font-size: 18px; }
+
+#secondPage {
+  padding: 0; }
+  #secondPage .secondPageBox {
+    width: 100% !important; }
+    #secondPage .secondPageBox .tabAbout {
+      width: 85px;
+      background-color: #ff6666; }
+    #secondPage .secondPageBox div {
+      font-size: 20px !important;
+      margin: 5% auto;
+      padding-left: 2%;
+      padding-right: 2%; }
+    #secondPage .secondPageBox .readMore {
+      opacity: 1;
+      width: 100px;
+      background-color: #ff6666; }
+    #secondPage .secondPageBox .skillsPic {
+      margin-bottom: 15% !important;
+      display: none; }
+    #secondPage .secondPageBox .responSkillsPic {
+      margin-bottom: 15px !important;
+      display: block;
+      height: 420px;
+      width: 300px;
+      margin: 0 auto; }
+    #secondPage .secondPageBox .continueReading a {
+      text-decoration: none; }
+    #secondPage .secondPageBox .continueReading img {
+      height: 80px;
+      width: 80px;
+      margin-bottom: 0 !important;
+      padding: 0 !important; }
+    #secondPage .secondPageBox .continueReading p {
+      margin: 0 auto;
+      text-align: center;
+      padding: 0 !important;
+      margin-top: 0 !important;
+      color: #FFF !important; }
+
+#thirdPage {
+  margin: 0 auto;
+  height: 100%; }
+  #thirdPage .thirdPageBox {
+    transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -webkit-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    margin-top: 0;
+    margin-bottom: 5%;
+    background-color: #fafafa;
+    color: #000;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto; }
+    #thirdPage .thirdPageBox h1 {
+      font-family: "Andale Mono", AndaleMono, monospace;
+      color: #023B61;
+      padding: 2px;
+      font-size: 72px !important;
+      font-weight: 500px;
+      cursor: default;
+      position: relative;
+      top: 35px;
+      background: #fafafa;
+      height: 100%;
+      width: 250px; }
+    #thirdPage .thirdPageBox .working .allWork {
+      padding-top: 80px;
+      margin-bottom: 100px; }
+      #thirdPage .thirdPageBox .working .allWork .workBox:hover img {
+        transition: all 0.4s ease-out;
+        -moz-transition: all 0.4s ease-out;
+        -webkit-transition: all 0.4s ease-out;
+        -o-transition: all 0.4s ease-out; }
+      #thirdPage .thirdPageBox .working .allWork .workBox:hover label {
+        transition: all 0.4s ease-out;
+        -moz-transition: all 0.4s ease-out;
+        -webkit-transition: all 0.4s ease-out;
+        -o-transition: all 0.4s ease-out;
+        height: 100%;
+        overflow: hidden;
+        display: block; }
+        #thirdPage .thirdPageBox .working .allWork .workBox:hover label i {
+          display: block; }
+      #thirdPage .thirdPageBox .working .allWork .workBox {
+        margin-bottom: 100px !important;
+        margin-right: 10px !important;
+        margin-left: 20px !important;
+        transition: all 0.4s ease-out;
+        -moz-transition: all 0.4s ease-out;
+        -webkit-transition: all 0.4s ease-out;
+        -o-transition: all 0.4s ease-out;
+        cursor: default;
+        display: inline-block;
+        margin: 0;
+        width: 340px;
+        height: 200px;
+        position: relative; }
+        #thirdPage .thirdPageBox .working .allWork .workBox .mobileDesc {
+          display: none; }
+        #thirdPage .thirdPageBox .working .allWork .workBox img {
+          transition: all 0.4s ease-out;
+          -moz-transition: all 0.4s ease-out;
+          -webkit-transition: all 0.4s ease-out;
+          -o-transition: all 0.4s ease-out;
+          border-bottom: 1px solid #313332;
+          height: 100%;
+          width: 100%; }
+        #thirdPage .thirdPageBox .working .allWork .workBox label {
+          transition: all 0.4s ease-out;
+          -moz-transition: all 0.4s ease-out;
+          -webkit-transition: all 0.4s ease-out;
+          -o-transition: all 0.4s ease-out;
+          font-family: "Andale Mono", AndaleMono, monospace;
+          line-height: 50px;
+          width: 100%;
+          height: 0;
+          color: #fff;
+          opacity: 0.9;
+          background: #000;
+          position: absolute;
+          bottom: 0;
+          left: 0; }
+          #thirdPage .thirdPageBox .working .allWork .workBox label a {
+            text-decoration: none;
+            color: #000; }
+          #thirdPage .thirdPageBox .working .allWork .workBox label h5 {
+            border: 2px solid #fff;
+            width: 200px;
+            margin: -45px auto;
+            cursor: pointer;
+            color: #fff; }
+          #thirdPage .thirdPageBox .working .allWork .workBox label h5:hover {
+            opacity: 0.8;
+            background: #fff;
+            color: #000; }
+          #thirdPage .thirdPageBox .working .allWork .workBox label i {
+            padding-top: 20px;
+            font-size: 30px;
+            line-height: 45px !important;
+            display: none;
+            font-weight: 600px; }
+        #thirdPage .thirdPageBox .working .allWork .workBox p {
+          color: #000000 !important;
+          opacity: 1 !important;
+          background-color: #FFF;
+          z-index: 100;
+          position: absolute;
+          top: 200px;
+          left: 200px; }
+      #thirdPage .thirdPageBox .working .allWork #workBoxOne:hover .jrockvisionBox {
+        opacity: 0.7;
+        transition: all 0.4s ease-out;
+        -moz-transition: all 0.4s ease-out;
+        -webkit-transition: all 0.4s ease-out;
+        -o-transition: all 0.4s ease-out; }
+      #thirdPage .thirdPageBox .working .allWork #workBoxOne {
+        position: relative; }
+        #thirdPage .thirdPageBox .working .allWork #workBoxOne p {
+          background-color: #FFF;
+          z-index: 100;
+          position: absolute;
+          top: 200px;
+          left: 200px; }
+        #thirdPage .thirdPageBox .working .allWork #workBoxOne .jrockvisionBox {
+          height: 30px !important;
+          width: 100%;
+          background-color: #000000;
+          border: 1px solid #FFF;
+          color: #FFF;
+          opacity: 1;
+          line-height: 30px;
+          transition: all 0.4s ease-out;
+          -moz-transition: all 0.4s ease-out;
+          -webkit-transition: all 0.4s ease-out;
+          -o-transition: all 0.4s ease-out; }
+      #thirdPage .thirdPageBox .working .allWork #workBoxTwo:hover .jrockvisionBox {
+        transition: all 0.4s ease-out;
+        -moz-transition: all 0.4s ease-out;
+        -webkit-transition: all 0.4s ease-out;
+        -o-transition: all 0.4s ease-out; }
+      #thirdPage .thirdPageBox .working .allWork #workBoxTwo .jrockvisionBox {
+        transition: all 0.4s ease-out;
+        -moz-transition: all 0.4s ease-out;
+        -webkit-transition: all 0.4s ease-out;
+        -o-transition: all 0.4s ease-out;
+        height: 30px !important;
+        width: 100%;
+        color: #FFF;
+        opacity: 1;
+        line-height: 30px; }
+      #thirdPage .thirdPageBox .working .allWork #workBoxThree:hover .jrockvisionBox {
+        opacity: 0.7;
+        transition: all 0.4s ease-out;
+        -moz-transition: all 0.4s ease-out;
+        -webkit-transition: all 0.4s ease-out;
+        -o-transition: all 0.4s ease-out; }
+      #thirdPage .thirdPageBox .working .allWork #workBoxThree .workInfoBox {
+        background: #fff; }
+      #thirdPage .thirdPageBox .working .allWork #workBoxThree .jrockvisionBox {
+        transition: all 0.4s ease-out;
+        -moz-transition: all 0.4s ease-out;
+        -webkit-transition: all 0.4s ease-out;
+        -o-transition: all 0.4s ease-out;
+        height: 30px !important;
+        width: 100%;
+        color: #FFF;
+        opacity: 1;
+        line-height: 30px; }
+      #thirdPage .thirdPageBox .working .allWork #workBoxFour .jrockvisionBox {
+        transition: all 0.4s ease-out;
+        -moz-transition: all 0.4s ease-out;
+        -webkit-transition: all 0.4s ease-out;
+        -o-transition: all 0.4s ease-out;
+        height: 30px !important;
+        width: 100%;
+        color: #FFF;
+        opacity: 1;
+        line-height: 30px; }
+    #thirdPage .thirdPageBox .jrockvisionBox {
+      border: 1px solid #FFF; }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 740px) {
+
+  #firstPage #introBackground {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    opacity: 0.5;
+    z-index: -3; }
+  #firstPage #introInfo {
+    z-index: -2;
+    position: fixed;
+    text-align: center;
+    margin-top: 23vh;
+    width: 100%; }
+    #firstPage #introInfo img {
+      padding-top: 10vh;
+      max-width: 850px; }
+    #firstPage #introInfo i {
+      font-family: "Arial Black", Gadget, sans-serif !important;
+      color: #2cf08b;
+      opacity: 0.9;
+      font-size: 16px;
+      position: relative;
+      top: 15px; }
+    #firstPage #introInfo h1 {
+      text-transform: uppercase;
+      font-weight: bolder;
+      font-family: "Arial Black", Gadget, sans-serif !important;
+      font-size: 1.5em;
+      line-height: 1.2em;
+      color: #fff; }
+  #firstPage #introTitle {
+    text-align: center;
+    color: #303030;
+    cursor: default; }
+    #firstPage #introTitle h1 {
+      font-family: "Arial Black", Gadget, sans-serif !important; }
+    #firstPage #introTitle h3 {
+      opacity: 0.6; }
+  #firstPage img {
+    height: 100%;
+    width: 100%; }
+  #firstPage .socialHead .socialBox {
+    position: fixed;
+    z-index: -2;
+    top: 92vh;
+    left: 92%;
+    width: 150px; }
+    #firstPage .socialHead .socialBox #socialI {
+      cursor: pointer;
+      height: 25px;
+      width: 25px;
+      margin: 8px;
+      opacity: 0.7; }
+    #firstPage .socialHead .socialBox #socialFB {
+      cursor: pointer;
+      margin: 8px;
+      height: 25px;
+      width: 25px;
+      opacity: 0.7; }
+    #firstPage .socialHead .socialBox #socialI:hover {
+      -webkit-filter: blur(1px);
+      opacity: 1; }
+    #firstPage .socialHead .socialBox #socialFB:hover {
+      -webkit-filter: blur(1px);
+      opacity: 1; }
+  #firstPage header {
+    margin: 0 auto; }
+    #firstPage header nav ul {
+      transition: max-height 0.4s;
+      web-kit-transition: max-height 0.4s;
+      ms-transition: max-height 0.4s;
+      moz-transition: max-height 0.4s;
+      -o-transition: max-height 0.4s;
+      margin: 0 auto;
+      color: #FFF;
+      padding: 0;
+      text-align: center;
+      font-size: 32px;
+      font-family: "Andale Mono", AndaleMono, monospace; }
+      #firstPage header nav ul li {
+        cursor: pointer;
+        height: 60px;
+        width: 160px;
+        border-radius: 10px;
+        border: 2px solid #000;
+        display: inline-block;
+        padding-top: 10px;
+        text-align: center;
+        color: #000;
+        opacity: 1;
+        margin: 20px;
+        transition: all 1s ease-out;
+        -moz-transition: all 1s ease-out;
+        -webkit-transition: all 1s ease-out;
+        -o-transition: all 1s ease-out; }
+        #firstPage header nav ul li img {
+          height: 25px;
+          width: 25px; }
+      #firstPage header nav ul li:hover {
+        transition: all 1s ease-out;
+        -moz-transition: all 1s ease-out;
+        -webkit-transition: all 1s ease-out;
+        -o-transition: all 1s ease-out;
+        border-radius: 150px;
+        background-color: #000;
+        opacity: 0.8;
+        color: #fff; }
+      #firstPage header nav ul #up {
+        color: #ecf1f2 !important; }
+      #firstPage header nav ul .showUp {
+        color: #000000; }
+  #firstPage #explore {
+    z-index: 1;
+    position: fixed;
+    margin: 0 auto;
+    margin-top: 65vh;
+    width: 100%; }
+    #firstPage #explore nav div:hover {
+      box-shadow: 0 0 10px #2cf08b;
+      transition: all 0.4s ease-out;
+      -moz-transition: all 0.4s ease-out;
+      -webkit-transition: all 0.4s ease-out;
+      -o-transition: all 0.4s ease-out; }
+      #firstPage #explore nav div:hover h1 .spinArrow {
+        -webkit-transform: rotate(720deg);
+        -moz-transform: rotate(720deg);
+        -o-transform: rotate(720deg); }
+    #firstPage #explore nav a {
+      cursor: pointer;
+      color: #000;
+      cursor: pointer;
+      text-decoration: none; }
+    #firstPage #explore nav div {
+      transition: all 0.4s ease-out;
+      -moz-transition: all 0.4s ease-out;
+      -webkit-transition: all 0.4s ease-out;
+      -o-transition: all 0.4s ease-out;
+      margin: 0 auto;
+      padding: 5px;
+      width: 250px;
+      font-size: 12px;
+      border: 2px solid #2cf08b;
+      border-radius: 3px; }
+      #firstPage #explore nav div .arrowOpt2 {
+        display: none; }
+      #firstPage #explore nav div h1 {
+        font-family: "Arial Black", Gadget, sans-serif !important;
+        color: #2cf08b;
+        cursor: pointer;
+        border: none !important;
+        text-align: center;
+        opacity: 1;
+        margin: 0 auto;
+        transition: all 1s ease-out;
+        -moz-transition: all 1s ease-out;
+        -webkit-transition: all 1s ease-out;
+        -o-transition: all 1s ease-out; }
+        #firstPage #explore nav div h1 .spinArrow {
+          -webkit-transition-duration: 0.8s;
+          -moz-transition-duration: 0.8s;
+          -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+          -webkit-transition-property: -webkit-transform;
+          -moz-transition-property: -moz-transform;
+          -o-transition-property: -o-transform;
+          transition-property: transform;
+          overflow: hidden;
+          height: 25px;
+          width: 25px;
+          cursor: pointer; }
+  #firstPage .downArrow:hover {
+    opacity: 0.5; }
+  #firstPage .downArrow {
+    position: relative;
+    height: 25px;
+    width: 25px;
+    margin: 18vh auto; }
+    #firstPage .downArrow img {
+      height: 100%;
+      width: 100%; }
+
+  #onePointFivePage {
+    cursor: default;
+    font-family: "Andale Mono", AndaleMono, monospace;
+    width: 95%;
+    height: 100%;
+    opacity: 0.9;
+    opacity: 0.97;
+    transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -webkit-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out; }
+    #onePointFivePage h1 {
+      padding-top: 95px !important;
+      font-size: 18px;
+      height: 100%;
+      width: 100%;
+      text-align: center; }
+
+  #secondPage .secondPageBox {
+    transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -webkit-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    height: 100%;
+    width: 100%;
+    opacity: 0.97 !important;
+    text-align: center;
+    margin: 0 auto; }
+    #secondPage .secondPageBox .me {
+      font-size: 18px !important;
+      padding: 10px !important; }
+    #secondPage .secondPageBox h1 {
+      font-family: "Andale Mono", AndaleMono, monospace;
+      padding: 2px; }
+    #secondPage .secondPageBox .tabAbout {
+      cursor: default;
+      display: block;
+      margin: 10px;
+      position: relative;
+      padding-top: 10px;
+      top: -20px;
+      left: -20px;
+      width: 35%;
+      background-color: #ff6666;
+      margin-top: 10px;
+      -webkit-box-shadow: 8px 7px 1px -1px rgba(0, 0, 0, 0.55);
+      -moz-box-shadow: 8px 7px 1px -1px rgba(0, 0, 0, 0.55);
+      box-shadow: 8px 7px 1px -1px rgba(0, 0, 0, 0.55); }
+    #secondPage .secondPageBox .tabWorks {
+      margin: 10px;
+      position: relative;
+      top: -5px;
+      left: -5px;
+      width: 13%;
+      background-color: #4bc6f0;
+      margin-top: 10px;
+      opacity: 0.3;
+      cursor: pointer; }
+    #secondPage .secondPageBox .tabWorks:hover {
+      opacity: 1;
+      top: -15px;
+      left: -15px;
+      -webkit-box-shadow: 8px 7px 1px -1px rgba(0, 0, 0, 0.55);
+      -moz-box-shadow: 8px 7px 1px -1px rgba(0, 0, 0, 0.55);
+      box-shadow: 8px 7px 1px -1px rgba(0, 0, 0, 0.55); }
+    #secondPage .secondPageBox .tabContact {
+      margin: 10px;
+      position: relative;
+      top: -5px;
+      left: -5px;
+      width: 13%;
+      background-color: #00c09e;
+      margin-top: 10px;
+      opacity: 0.3;
+      cursor: pointer; }
+    #secondPage .secondPageBox .tabContact:hover {
+      opacity: 1;
+      top: -15px;
+      left: -15px;
+      -webkit-box-shadow: 8px 7px 1px -1px rgba(0, 0, 0, 0.55);
+      -moz-box-shadow: 8px 7px 1px -1px rgba(0, 0, 0, 0.55);
+      box-shadow: 8px 7px 1px -1px rgba(0, 0, 0, 0.55); }
+    #secondPage .secondPageBox div {
+      cursor: default;
+      text-align: center;
+      font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+      font-size: 24px;
+      margin: 5% auto;
+      padding-left: 2%;
+      padding-right: 2%; }
+      #secondPage .secondPageBox div .resume {
+        margin-top: 100px !important; }
+    #secondPage .secondPageBox .moreMe {
+      color: #000000;
+      padding: 5px !important;
+      font-size: 12px !important;
+      display: none;
+      background-color: #FFF;
+      height: 100%;
+      padding-top: 15px; }
+      #secondPage .secondPageBox .moreMe .closeBox {
+        color: #000000;
+        cursor: pointer; }
+      #secondPage .secondPageBox .moreMe .closeBox:hover {
+        opacity: 0.5; }
+      #secondPage .secondPageBox .moreMe a {
+        text-decoration: none; }
+    #secondPage .secondPageBox p {
+      text-align: center;
+      font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+      font-size: 15px;
+      width: 65%;
+      margin: 7% 2%; }
+    #secondPage .secondPageBox .portPic {
+      margin: 0 auto;
+      border-radius: 250px;
+      height: 250px;
+      width: 250px;
+      border: 3px solid #FFF; }
+    #secondPage .secondPageBox .readMore {
+      opacity: 1;
+      background-color: #ff6666;
+      -webkit-box-shadow: 8px 7px 1px -1px rgba(0, 0, 0, 0.55);
+      -moz-box-shadow: 8px 7px 1px -1px rgba(0, 0, 0, 0.55);
+      box-shadow: 8px 7px 1px -1px rgba(0, 0, 0, 0.55);
+      color: #000000; }
+    #secondPage .secondPageBox .readMore:hover {
+      opacity: 0.5; }
+    #secondPage .secondPageBox .skillsPic {
+      margin-bottom: 5%;
+      width: 550px;
+      height: 190px; }
+
+  #twoPointFivePage {
+    transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -webkit-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    margin: 0 auto;
+    width: 100%;
+    padding: 2%;
+    height: 100%;
+    opacity: 0.97;
+    margin-bottom: 10%; }
+    #twoPointFivePage .disign {
+      cursor: pointer;
+      border: 3px solid #000000;
+      cursor: default;
+      text-align: center;
+      width: 95%;
+      height: 100%;
+      padding: 15px;
+      margin: 2% 2.5%;
+      background-color: #ff6666;
+      opacity: 1 !important;
+      display: block; }
+      #twoPointFivePage .disign p {
+        display: block;
+        font-size: 21px; }
+      #twoPointFivePage .disign img {
+        width: 35px;
+        height: 35px; }
+    #twoPointFivePage .development {
+      cursor: pointer;
+      border: 3px solid #000000;
+      cursor: default;
+      text-align: center;
+      width: 95%;
+      height: 100%;
+      padding: 15px;
+      margin: 2% 2.5%;
+      background-color: #4bc6f0;
+      opacity: 1 !important;
+      display: block; }
+      #twoPointFivePage .development p {
+        display: block;
+        font-size: 21px; }
+      #twoPointFivePage .development img {
+        width: 35px;
+        height: 35px; }
+    #twoPointFivePage .branding {
+      cursor: pointer;
+      border: 3px solid #000000;
+      cursor: default;
+      text-align: center;
+      width: 95%;
+      height: 100%;
+      padding: 15px;
+      margin: 2% 2.5%;
+      background-color: #00c09e;
+      opacity: 1 !important;
+      display: block; }
+      #twoPointFivePage .branding p {
+        display: block;
+        font-size: 21px; }
+      #twoPointFivePage .branding img {
+        width: 35px;
+        height: 35px; }
+
+  #thirdPage {
+    margin: 0 auto;
+    height: 100%; }
+    #thirdPage .thirdPageBox {
+      transition: all 0.4s ease-out;
+      -moz-transition: all 0.4s ease-out;
+      -webkit-transition: all 0.4s ease-out;
+      -o-transition: all 0.4s ease-out;
+      margin-top: 6%;
+      margin-bottom: 5%;
+      background-color: #fafafa;
+      color: #000;
+      height: 100%;
+      width: 100%;
+      text-align: center;
+      margin: 0 auto; }
+      #thirdPage .thirdPageBox h1 {
+        font-family: "Arial Black", Gadget, sans-serif !important;
+        color: #023B61;
+        padding: 2px;
+        font-size: 45px;
+        font-weight: 500px;
+        cursor: default;
+        position: relative;
+        top: 35px;
+        background: #fafafa;
+        height: 100%;
+        width: 250px; }
+      #thirdPage .thirdPageBox .tabAbout {
+        cursor: default;
+        display: block;
+        margin: 10px;
+        position: relative;
+        top: -8px;
+        left: -18px;
+        width: 15%;
+        background-color: #4bc6f0;
+        margin-top: 10px;
+        -webkit-box-shadow: 8px 7px 1px -1px rgba(0, 0, 0, 0.55);
+        -moz-box-shadow: 8px 7px 1px -1px rgba(0, 0, 0, 0.55);
+        box-shadow: 8px 7px 1px -1px rgba(0, 0, 0, 0.55); }
+      #thirdPage .thirdPageBox .working .allWork {
+        padding-top: 80px;
+        margin-bottom: 100px; }
+        #thirdPage .thirdPageBox .working .allWork .workBox:hover img {
+          transition: all 0.4s ease-out;
+          -moz-transition: all 0.4s ease-out;
+          -webkit-transition: all 0.4s ease-out;
+          -o-transition: all 0.4s ease-out; }
+        #thirdPage .thirdPageBox .working .allWork .workBox:hover label {
+          transition: all 0.4s ease-out;
+          -moz-transition: all 0.4s ease-out;
+          -webkit-transition: all 0.4s ease-out;
+          -o-transition: all 0.4s ease-out;
+          height: 100%;
+          overflow: hidden;
+          display: block; }
+          #thirdPage .thirdPageBox .working .allWork .workBox:hover label i {
+            display: block; }
+        #thirdPage .thirdPageBox .working .allWork .workBox {
+          margin-bottom: 100px !important;
+          margin-right: 10px !important;
+          margin-left: 20px !important;
+          transition: all 0.4s ease-out;
+          -moz-transition: all 0.4s ease-out;
+          -webkit-transition: all 0.4s ease-out;
+          -o-transition: all 0.4s ease-out;
+          cursor: default;
+          display: inline-block;
+          margin: 0;
+          width: 280px;
+          height: 160px;
+          position: relative; }
+          #thirdPage .thirdPageBox .working .allWork .workBox .mobileDesc {
+            display: none; }
+          #thirdPage .thirdPageBox .working .allWork .workBox img {
+            transition: all 0.4s ease-out;
+            -moz-transition: all 0.4s ease-out;
+            -webkit-transition: all 0.4s ease-out;
+            -o-transition: all 0.4s ease-out;
+            border-bottom: 1px solid #313332;
+            height: 100%;
+            width: 100%; }
+          #thirdPage .thirdPageBox .working .allWork .workBox label {
+            transition: all 0.4s ease-out;
+            -moz-transition: all 0.4s ease-out;
+            -webkit-transition: all 0.4s ease-out;
+            -o-transition: all 0.4s ease-out;
+            font-family: "Arial Black", Gadget, sans-serif !important;
+            line-height: 50px;
+            width: 100%;
+            height: 0;
+            color: #fff;
+            opacity: 0.9;
+            background: #000;
+            position: absolute;
+            bottom: 0;
+            left: 0; }
+            #thirdPage .thirdPageBox .working .allWork .workBox label a {
+              text-decoration: none;
+              color: #000; }
+            #thirdPage .thirdPageBox .working .allWork .workBox label h5 {
+              border: 2px solid #fff;
+              width: 200px;
+              margin: -55px auto;
+              cursor: pointer;
+              color: #fff; }
+            #thirdPage .thirdPageBox .working .allWork .workBox label h5:hover {
+              opacity: 0.8;
+              background: #fff;
+              color: #000; }
+            #thirdPage .thirdPageBox .working .allWork .workBox label i {
+              padding-top: 20px;
+              font-size: 30px;
+              line-height: 50px;
+              display: none;
+              font-weight: 600px; }
+          #thirdPage .thirdPageBox .working .allWork .workBox p {
+            color: #000000 !important;
+            opacity: 1 !important;
+            background-color: #FFF;
+            z-index: 100;
+            position: absolute;
+            top: 200px;
+            left: 200px; }
+        #thirdPage .thirdPageBox .working .allWork #workBoxOne:hover .jrockvisionBox {
+          opacity: 0.7;
+          transition: all 0.4s ease-out;
+          -moz-transition: all 0.4s ease-out;
+          -webkit-transition: all 0.4s ease-out;
+          -o-transition: all 0.4s ease-out; }
+        #thirdPage .thirdPageBox .working .allWork #workBoxOne {
+          position: relative; }
+          #thirdPage .thirdPageBox .working .allWork #workBoxOne p {
+            background-color: #FFF;
+            z-index: 100;
+            position: absolute;
+            top: 200px;
+            left: 200px; }
+          #thirdPage .thirdPageBox .working .allWork #workBoxOne .jrockvisionBox {
+            height: 30px !important;
+            width: 100%;
+            background-color: #000000;
+            border: 1px solid #FFF;
+            color: #FFF;
+            opacity: 1;
+            line-height: 30px;
+            transition: all 0.4s ease-out;
+            -moz-transition: all 0.4s ease-out;
+            -webkit-transition: all 0.4s ease-out;
+            -o-transition: all 0.4s ease-out; }
+        #thirdPage .thirdPageBox .working .allWork #workBoxTwo:hover .jrockvisionBox {
+          transition: all 0.4s ease-out;
+          -moz-transition: all 0.4s ease-out;
+          -webkit-transition: all 0.4s ease-out;
+          -o-transition: all 0.4s ease-out; }
+        #thirdPage .thirdPageBox .working .allWork #workBoxTwo .jrockvisionBox {
+          transition: all 0.4s ease-out;
+          -moz-transition: all 0.4s ease-out;
+          -webkit-transition: all 0.4s ease-out;
+          -o-transition: all 0.4s ease-out;
+          height: 30px !important;
+          width: 100%;
+          color: #FFF;
+          opacity: 1;
+          line-height: 30px; }
+        #thirdPage .thirdPageBox .working .allWork #workBoxThree:hover .jrockvisionBox {
+          opacity: 0.7;
+          transition: all 0.4s ease-out;
+          -moz-transition: all 0.4s ease-out;
+          -webkit-transition: all 0.4s ease-out;
+          -o-transition: all 0.4s ease-out; }
+        #thirdPage .thirdPageBox .working .allWork #workBoxThree .workInfoBox {
+          background: #fff; }
+        #thirdPage .thirdPageBox .working .allWork #workBoxThree .jrockvisionBox {
+          transition: all 0.4s ease-out;
+          -moz-transition: all 0.4s ease-out;
+          -webkit-transition: all 0.4s ease-out;
+          -o-transition: all 0.4s ease-out;
+          height: 30px !important;
+          width: 100%;
+          color: #FFF;
+          opacity: 1;
+          line-height: 30px; }
+        #thirdPage .thirdPageBox .working .allWork #workBoxFour .jrockvisionBox {
+          transition: all 0.4s ease-out;
+          -moz-transition: all 0.4s ease-out;
+          -webkit-transition: all 0.4s ease-out;
+          -o-transition: all 0.4s ease-out;
+          height: 30px !important;
+          width: 100%;
+          color: #FFF;
+          opacity: 1;
+          line-height: 30px; }
+      #thirdPage .thirdPageBox .jrockvisionBox {
+        border: 1px solid #FFF; }
+
+  #threePointFivePage {
+    cursor: default;
+    font-family: "Arial Black", Gadget, sans-serif !important;
+    color: #484648;
+    transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -webkit-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    padding: 0 !important; }
+    #threePointFivePage hr {
+      padding: 0;
+      border: none;
+      border-top: medium double #fff;
+      color: #fff;
+      text-align: center; }
+    #threePointFivePage hr:after {
+      display: inline-block;
+      position: relative;
+      top: -0.7em;
+      font-size: 1.5em;
+      padding: 0 0.25em;
+      background: transparent; }
+    #threePointFivePage img {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      padding: 0;
+      margin: 0; }
+    #threePointFivePage #findMeBar {
+      padding: 3px;
+      margin: 25px auto;
+      width: 289px;
+      position: relative;
+      top: 1px;
+      z-index: 2; }
+      #threePointFivePage #findMeBar div {
+        margin: 10px;
+        display: inline-block;
+        width: 70px;
+        height: 70px;
+        border: 3px solid #fff;
+        border-radius: 150px; }
+      #threePointFivePage #findMeBar div:hover {
+        background: #2cf08b; }
+      #threePointFivePage #findMeBar img {
+        padding-top: 15px;
+        padding-left: 18px;
+        height: 45px;
+        width: 45px; }
+    #threePointFivePage h1 {
+      position: relative;
+      top: -1px;
+      z-index: 2;
+      margin-top: 40px;
+      font-size: 29px;
+      padding: 10px;
+      height: 100%;
+      color: #fff;
+      width: 100%;
+      text-align: center; } }

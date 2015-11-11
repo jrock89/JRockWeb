@@ -1,0 +1,188 @@
+  .headerContainer{
+        padding:0;
+        margin:0;
+        nav{
+            #nav-toggle-box{
+                @include ease-out-transition();
+                cursor: pointer !important;
+                position: fixed;
+                z-index: 9999;
+                display: none;
+                top:4.4vh !important;
+                right:5.5% !important;
+                width: 34px;
+                margin:0 auto;
+                #nav-toggle span {
+                    margin-bottom:4px;
+                  cursor: pointer;
+                  border-radius: 3px;
+                  height: 4px;
+                  width: 32px;
+                  background: white;
+                  display: block;
+                  content: '';
+                }
+                #burger, #bunOne, #bunTwo {
+                  transition: all 500ms ease-in-out;
+                }
+                #burger.active{
+                  background-color: transparent;
+                }
+                #bunOne.active, #bunTwo.active{
+                  // top: 0;
+                }
+               #bunOne.active {
+                    top:10px;
+                    position: relative;
+                  transform: rotate(45deg);
+                }
+                #bunTwo.active{
+                     top:-5px;
+                    position: relative;
+                  transform: rotate(-45deg);
+                }
+            }
+            .introMenu{
+                #totalBox{
+                    #logoBox{
+                        @include ease-out-transition();
+                        height:49px !important;
+                        width:419px !important;
+                        margin:10px 0 !important;
+                    }
+                    #faceBox{
+                        height: 45px !important;
+                        width: 45px !important;
+                    }
+                    #navi{
+                        top:-155px !important;
+                    }
+                    .navTitle{
+                        display: none !important;
+                    }
+                }
+            }
+            .floatingHead{
+                // display:block;
+            }
+
+        }
+
+    }
+    #headerContainer{
+        background:#1d1d1f !important;
+        z-index: 5;
+        @include ease-out-transition();
+        position: fixed;
+        margin:0 auto;
+        width: 100%;
+        top: -0.5px;
+        left: -0.5px;
+        #fixedMenu{
+            padding-top:20vh;
+            height: 100vh;
+            width: 100%;
+            background: #000;
+            opacity: 0.9;
+            position: fixed;
+            z-index: 9000;
+            display: none;
+            a{
+                text-decoration: none;
+                li{
+                    color:#2cf08b;
+                    list-style: none;
+                    font-family: "Arial Black", Gadget, sans-serif !important;
+                    font-size: 34px;
+                    text-align: center;
+                    margin:20px auto;
+                    cursor: pointer;
+                    width:200px;
+                    border-radius:3px;
+                    border:2px solid #2cf08b;
+
+
+                }
+                li:hover{
+                    color:#000;
+                    background:#2cf08b;
+                    border:2px solid #000;
+                }
+            }
+        }
+        nav{ 
+            #nav-toggle-box{
+                top:5.5vh;
+            }
+            .introMenu{
+                padding:0;
+                margin:0;
+                text-align: center;
+                list-style: none;
+                a{
+                    text-decoration: none;
+                }
+                // #logoBox{
+                //     cursor: pointer;
+                //     @include ease-out-transition();
+                //     margin: 0 auto;
+                //     height: 60px;
+                //     width: 60px;
+                //     margin: 2vh;
+                //     position: relative;
+                //     left: 0%;
+                //     z-index: 9999;
+                    
+                     
+            
+                // }
+                
+                // #logoBox:hover{
+                //     -webkit-transform:rotate(360deg);
+                //     -moz-transform:rotate(360deg);
+                //     -o-transform:rotate(360deg);
+                // }
+                li{
+                    // cursor: default;
+                    margin:10px 25px;
+                    display: inline-block;
+                    font-size:18px;
+                }
+                .greenCircle{
+                    display: none;
+                    position: absolute;
+                    background:#2cf08b;
+                    height:90px;
+                    width: 90px;
+                    border-radius:50px;
+                    top:15px;
+                    right:46.2%;
+                    cursor: pointer;
+                }
+                #navi{
+                    font-family: "Arial Black", Gadget, sans-serif !important;
+                    cursor: pointer;
+                    color: #000;
+                    opacity: 0.8;
+                    @include ease-out-transition();
+                    position: relative;
+                    top:-43px;
+                    color:#fff;
+                    display: none;
+                    p{
+                    }
+                }
+                #navi:hover{
+                    @include ease-out-transition();
+                    color:#2cf08b;
+                    opacity: 1;
+                }
+                #ham{
+                    @include ease-out-transition();
+                    display: none;
+                }
+                #hamDecoy{
+                    display: none;
+                }
+            }
+        }
